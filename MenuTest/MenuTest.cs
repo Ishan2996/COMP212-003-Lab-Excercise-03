@@ -31,5 +31,16 @@ namespace MenuTest
         {
 
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void greenToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            displaylabel.ForeColor = Color.Green;
+            greenToolStripMenuItem.Checked = true;
+        }
     }
 }
