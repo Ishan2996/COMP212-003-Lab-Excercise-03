@@ -39,44 +39,53 @@ namespace TabControls
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-           linkLabel1.LinkVisited = true;
+           lblIndia.LinkVisited = true;
 
             System.Diagnostics.Process.Start("https://india.gov.in/");
         }
 
         private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            linkLabel2.LinkVisited = true;
+            lblCanada.LinkVisited = true;
 
             System.Diagnostics.Process.Start("https://en.wikipedia.org/wiki/Canada");
         }
 
         private void linkLabel3_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            linkLabel3.LinkVisited = true;
+            lblUSA.LinkVisited = true;
 
-            System.Diagnostics.Process.Start("");
+            System.Diagnostics.Process.Start("https://en.wikipedia.org/wiki/United_States");
         }
 
         private void linkLabel4_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            linkLabel4.LinkVisited = true;
+            lblFrance.LinkVisited = true;
 
-            System.Diagnostics.Process.Start("");
+            System.Diagnostics.Process.Start("https://en.wikipedia.org/wiki/France");
         }
 
         private void linkLabel5_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            linkLabel5.LinkVisited = true;
+            lblLondon.LinkVisited = true;
 
-            System.Diagnostics.Process.Start("");
+            System.Diagnostics.Process.Start("https://en.wikipedia.org/wiki/London");
         }
 
         private void linkLabel6_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            linkLabel6.LinkVisited = true;
+            lblSydney.LinkVisited = true;
 
-            System.Diagnostics.Process.Start("");
+            System.Diagnostics.Process.Start("https://en.wikipedia.org/wiki/Sydney");
+        }
+
+        private void checkedListBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            foreach (object itemChecked in checkedListBox.CheckedItems)
+            {
+                    
+            }
+         }
         }
     }
-}
+
